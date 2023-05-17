@@ -13,7 +13,7 @@ namespace Good.Factories
     /// </summary>
     class MidleLvlBidloFactory : IBidloFactory
     {
-        private static int HardBidloCount = 0;
+        private int HardBidloCount = 0;
 
         public IBidlo Create()
         {
